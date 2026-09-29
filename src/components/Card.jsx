@@ -1,8 +1,10 @@
+import rainbowSalad from './assets/rainbow-salad.jpg';
+
 const Card = () => {
   return (
     <div className="card">
         <div className='card-img'>
-            <img src='../rainbow-salad.jpg' alt='Rainbow Salad' />
+            <img src={rainbowSalad} alt='Rainbow Salad' />
         </div>
         <div className="card-descript">
             <h3>Rainbow Salad</h3>
