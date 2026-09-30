@@ -1,4 +1,4 @@
-import cardImg from '../../assets/rainbow-salad.jpg';
+import cardImg from '../assets/rainbow-salad.jpg';
 
 const Card = () => {
   return (
